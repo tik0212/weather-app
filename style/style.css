@@ -1,0 +1,66 @@
+:root {
+  --border: 5px;
+
+  --main-font: sans-serif;
+  --text-size: 15px;
+
+  --bg-page: #8DAF9B;
+  --bg-main: #AAC4BC;
+  --bg-input: #e1ecdf;
+
+  --accent-color: #4c5245;
+  --text-white: #e1ecdf;
+}
+
+body {
+  background-color: var(--bg-page);
+  font-family: var(--main-font);
+  font-size: var(--text-size);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  margin: 50px auto;
+  max-width: 500px;
+  min-height: 90%;
+  border-radius: var(--border);
+  background-color: var(--bg-main);
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--main-font);
+  color: var(--text-white);
+  font-size: 55px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  height: 28px;
+  width: 300px;
+  padding-left: 5px;
+  border-radius: 5px 0 0 5px;
+  color: var(--bg-main);
+  background-color: var(--bg-input);
+}
+
+input::placeholder {
+  font-family: var(--main-font);
+  font-size: var(--text-size);
+}
+
+.search-btn {
+  padding: 5px;
+  border-radius: 0 5px 5px 0;
+  font-size: var(--text-size);
+  font-family: var(--main-font);
+  color: var(--text-white);
+  background-color: var(--accent-color);
+}
