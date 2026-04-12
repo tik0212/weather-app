@@ -4,12 +4,12 @@
   --main-font: sans-serif;
   --text-size: 15px;
 
-  --bg-page: #8DAF9B;
-  --bg-main: #AAC4BC;
-  --bg-input: #e1ecdf;
+  --bg-page: #3c384d;
+  --bg-main: #EBDFDC;
+  --bg-input: #3c384d;
 
-  --accent-color: #4c5245;
-  --text-white: #e1ecdf;
+  --accent-color: #fff4f4;
+  --text-white: #3c384d;
 }
 
 body {
