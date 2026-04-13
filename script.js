@@ -23,4 +23,5 @@ searchButton.addEventListener("click", function () {
         </div>
       `;
     });
+    cityInput.value = "";
 });
