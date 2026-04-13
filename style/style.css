@@ -9,7 +9,7 @@
   --bg-input: #3c384d;
 
   --accent-color: #fff4f4;
-  --text-white: #3c384d;
+  --text-dark: #3c384d;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
   padding-top: 20px;
   margin: 50px auto;
   max-width: 500px;
@@ -63,6 +63,33 @@ input::placeholder {
   font-family: var(--main-font);
   color: var(--text-white);
   background-color: var(--accent-color);
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.city-name {
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 20px;
+  color: var(--accent-color);
+}
+
+.temp {
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 20px;
+  color: var(--accent-color);
+}
+
+.weather-description {
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 20px;
+  color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
