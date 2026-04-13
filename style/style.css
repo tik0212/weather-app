@@ -8,7 +8,7 @@
   --bg-main: #EBDFDC;
   --bg-input: #3c384d;
 
-  --accent-color: #fff4f4;
+  --accent-color: #ffffff;
   --text-dark: #3c384d;
 }
 
@@ -21,8 +21,8 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  padding-top: 20px;
+  gap: 90px;
+  padding-top: 40px;
   margin: 50px auto;
   max-width: 500px;
   min-height: 90%;
@@ -61,7 +61,7 @@ input::placeholder {
   border-radius: 0 5px 5px 0;
   font-size: var(--text-size);
   font-family: var(--main-font);
-  color: var(--text-white);
+  color: var(--text-dark);
   background-color: var(--accent-color);
 }
 
