@@ -4,7 +4,7 @@ const weatherBox = document.getElementById("weatherBox");
 
 const apiKey = "c0c85999d3009d467a983a4bf654418c";
 
-searchButton.addEventListener("click", function () {
+function showWeather() {
   const cityName = cityInput.value;
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
@@ -23,5 +23,15 @@ searchButton.addEventListener("click", function () {
         </div>
       `;
     });
-    cityInput.value = "";
+  cityInput.value = "";
+};
+
+searchButton.addEventListener("click", function() {
+  showWeather();
+});
+
+cityInput.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    showWeather();
+  };
 });
