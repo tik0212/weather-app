@@ -4,7 +4,7 @@
   --main-font: sans-serif;
   --text-size: 15px;
 
-  --bg-page: #3c384d;
+  --bg-page: #EBDFDC;
   --bg-main: #EBDFDC;
   --bg-input: #3c384d;
 
@@ -24,16 +24,12 @@ body {
   gap: 90px;
   padding-top: 40px;
   margin: 50px auto;
-  max-width: 500px;
-  min-height: 90%;
-  border-radius: var(--border);
-  background-color: var(--bg-main);
 }
 
 h1 {
   text-align: center;
   font-family: var(--main-font);
-  color: var(--text-white);
+  color: var(--accent-color);
   font-size: 55px;
 }
 
