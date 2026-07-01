@@ -14,7 +14,6 @@ function showWeather() {
       const temp = data.main.temp;
       const name = data.name;
       const description = data.weather[0].description;
-      gti
 
       weatherBox.innerHTML = `
         <div class="weather-info">
